@@ -19,7 +19,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="img-fluid" width="80px" src="./img/duck.png" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img class="img-fluid" width="80px" src="./img/duck.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Catalogo Libri</a>
                         <a class="nav-link" href="#">Anagrafica Utenti</a>
                         <a class="nav-link" href="#">Storico Prestiti</a>
                         <a class="nav-link" href="#">Help</a>
@@ -44,7 +44,7 @@
                     <h2>Catalogo Libri</h2>
                 </div>
                 <div class="col d-flex justify-content-end">
-                    <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+                    <a href="new-book.html"><button type="button" class="btn btn-primary">Aggiungi Libro</button></a>
                 </div>
             </div>
             <!-- Lista Libri -->
@@ -52,7 +52,7 @@
                 <thead>
                     <tr>
                         <th scope="col">Titolo</th>
-                        <th><span class="d-none d-md-block">Data prestito</span></th>
+                        <th class="d-none d-md-table-cell">Data prestito</th>
                         <th scope="col">Stato</th>
                         <th scope="col">Azioni</th>
                     </tr>
@@ -60,7 +60,7 @@
                 <tbody>
                     <tr class="table-light">
                         <td> I Pilastri della terra</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-success"
                                 style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Disponibile
@@ -75,7 +75,7 @@
                     </tr>
                     <tr class="table-hover">
                         <td>I promessi sposi</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-success"
                                 style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Disponibile
@@ -90,7 +90,7 @@
                     </tr>
                     <tr class="table-light">
                         <td>Il signore degli anelli</td>
-                        <td><span class="d-none d-md-block">18/10/2023</span></td>
+                        <td class="d-none d-md-table-cell">18/10/2023</td>
                         <td>
                             <button type="button" class="btn btn-warning text-white"
                                 style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">In prestito
@@ -105,7 +105,7 @@
                     </tr>
                     <tr>
                         <td>Harry Potter e la pietra filosofale</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-success"
                                     style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Disponibile
@@ -120,7 +120,7 @@
                     </tr>
                     <tr class="table-light">
                         <td>Il codice Da Vinci</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-danger"
                                 style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Non disponibile
@@ -135,7 +135,7 @@
                     </tr>
                     <tr>
                         <td>Shining</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-success"
                                     style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Disponibile
@@ -150,7 +150,7 @@
                     </tr>
                     <tr class="table-light">
                         <td>La divina commedia</td>
-                        <td><span class="d-none d-md-block">21/09/2023</span></td>
+                        <td class="d-none d-md-table-cell">21/09/2023</td>
                         <td>
                             <button type="button" class="btn btn-warning text-white"
                                 style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">In prestito
@@ -165,7 +165,7 @@
                     </tr>
                     <tr>
                         <td>Il trono di spade</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-success"
                                     style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Disponibile
@@ -180,7 +180,7 @@
                     </tr>
                     <tr class="table-light">
                         <td>Il mondo di Sofia</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-danger"
                                 style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Non disponibile
@@ -195,7 +195,7 @@
                     </tr>
                     <tr>
                         <td>Le cronache di Narnia: il leona, la strega e l'armadio</td>
-                        <td><span class="d-none d-md-block">25/07/2023</span></td>
+                        <td class="d-none d-md-table-cell">25/07/2023</td>
                         <td>
                             <button type="button" class="btn btn-warning text-white"
                                 style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">In prestito
@@ -210,7 +210,7 @@
                     </tr>
                     <tr class="table-light">
                         <td>Il piccolo principe</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-success"
                                     style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Disponibile
@@ -225,7 +225,7 @@
                     </tr>
                     <tr>
                         <td>La storia infinita</td>
-                        <td ><span class="d-none d-md-block">-</span></td>
+                        <td class="d-none d-md-table-cell">-</td>
                         <td>
                             <button type="button" class="btn btn-success"
                                     style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .1rem; --bs-btn-font-size: .75rem;">Disponibile
