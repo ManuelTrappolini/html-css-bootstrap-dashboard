@@ -47,20 +47,20 @@
             <!-- Form -->
             <form class="row g-3">
                 <div class="col-md-6 col-sm-6">
-                    <label class="form-label fw-bold">Nome Autore</label>
+                    <label class="form-label fw-semibold">Nome Autore</label>
                     <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore">
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <label class="form-label fw-bold">Cognome Autore</label>
+                    <label class="form-label fw-semibold">Cognome Autore</label>
                     <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore">
                 </div>
                 <div class="col-12">
-                    <label class="form-label fw-bold">Titolo</label>
+                    <label class="form-label fw-semibold">Titolo</label>
                     <input type="text" class="form-control" placeholder="Inserisci il titolo del libro">
                     <label class="form-label text-secondary">Titolo versione italiana</label>
                 </div>
                 <div class="col-md-4">
-                    <label class="form-label fw-bold">Genere</label>
+                    <label class="form-label fw-semibold">Genere</label>
                     <select id="inputState" class="form-select">
                         <option selected>Scegli il genere</option>
                         <option>Horror</option>
@@ -72,21 +72,24 @@
                     </select>
                 </div>
                 <div class="col-md-4">
-                    <label class="form-label fw-bold">Anno di Pubblicazione</label>
+                    <label class="form-label fw-semibold">Anno di Pubblicazione</label>
                     <input type="text" class="form-control" placeholder="Inserisci l'anno">
                 </div>
                 <div class="col-md-4 pb-4">
-                    <label class="form-label fw-bold">ISBN#</label>
+                    <label class="form-label fw-semibold">ISBN#</label>
                     <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#">
                 </div>
                 <span class="border-top pb-4"></span>
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label fw-semibold">Note</label>
+                        <textarea class="form-control" placeholder="Inserisci eventuali note sul libro" rows="3"></textarea>
+                      </div>
                   </div>
                 <div class="col-12">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label fw-bold" for="gridCheck">
+                        <label class="form-check-label fw-semibold" for="gridCheck">
                             Disponibile anche in digitale
                         </label>
                     </div>
